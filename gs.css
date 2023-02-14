@@ -14,3 +14,26 @@
     .AUNT CANDACE{
     color: rgb(227, 27, 27);
     }
+    table {
+        border-collapse: collapse;
+        width: 109%;
+        margin-bottom: 1.5em;
+        color: #1a1818;
+      }
+      
+      th, td {
+        padding: 2.5em;
+        text-align: left;
+        border: 1px solid #8a8888;
+      }
+      
+      th {
+        background-color: #b6adad;
+        font-weight: bold;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #eddcdc;
+      }
+      
+      
