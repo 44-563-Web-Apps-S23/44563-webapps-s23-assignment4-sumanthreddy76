@@ -1,0 +1,16 @@
+.speech {
+    font-size:12;font-family: Arial, Helvetica, sans-serif; color: black;
+    }
+.direction {
+    background-color: lightgray;font-size: 16;font-family: Arial, Helvetica, sans-serif;
+    background:rgb(207, 207, 65);font-size: 18;font-family: Arial, Helvetica, sans-serif;
+}
+.direction:hover{
+    background-color: rgb(200, 200, 197);
+}
+.MARY{
+    color: rgb(22, 22, 86);
+    }
+    .AUNT CANDACE{
+    color: rgb(227, 27, 27);
+    }
