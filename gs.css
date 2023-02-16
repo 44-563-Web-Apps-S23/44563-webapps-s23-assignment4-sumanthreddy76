@@ -11,7 +11,7 @@
 .MARY{
     color: rgb(22, 22, 86);
     }
-    .AUNT CANDACE{
+    .AUNTCANDACE{
     color: rgb(227, 27, 27);
     }
     table {
@@ -35,5 +35,44 @@
       tr:nth-child(even) {
         background-color: #eddcdc;
       }
+
+    .AUNTCANDACE:hover,
+    .MARY:hover {
+     border: 2px solid rgb(198, 103, 9);
+    box-shadow: 5px 5px 8px 5px rgb(165, 204, 237);
+    }
+    ul.navbar-horizontal {
+      display: inline;
+      padding: 100%;
+      color: rgb(176, 29, 29);
+  }
+  
+  ul.navbar-horizontal {
+      /* remove these */
+      list-style-type: none;
+      margin: 10px;;
+      padding: 0;
+  }
+  
+  ul.navbar-horizontal li {
+      float: left;
+      /* line up horizontally */
+      color: #3f1c1c;
+      background-color: rgb(101, 112, 100)
+  }
+  
+  ul.navbar-horizontal a {
+      display:block;
+      padding: 8px
+  }
+  
+  /* on hover change the link color*/
+  ul.navbar-horizontal a:hover {
+      background-color: #ea2e2e;
+      color: white;
+  }
+  .pic{
+      width: 30%;
+  }
       
       
